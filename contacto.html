@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+<body>
+    <style>
+        strong{
+            font-size: 150%;
+            margin-right: 20px;
+        }
+
+        a{
+            text-decoration: none;
+        }
+    </style>
+    <header id="cabecera">
+        <h1 style="text-align: center;">Mi primera web</h1>
+        </header>
+        <nav>
+            <strong><a href="index.html">Inicio</a></strong>
+            <strong><a href="contenido.html">Contenido</a></strong>
+            <strong><a href="contacto.html">Contacto</a></strong>
+        </nav>
+        <hr>
+        <h2>Contactame aquí</h2>
+    <form action="index.html" method="get">
+        <label for="nombre">Nombre:</label><br/>
+        <input type="text" id="nombre" name="nombre" value=""><br/>
+        <label for="descripcion">Descrpcion:</label><br/>
+        <textarea name="mesnsaje" rows="10" cols="30"></textarea><br/>
+        <p>Indique su rango de edad:</p>
+        <input type="radio" id="edad1" name="edad">Mayor de edad<br/>
+        <input type="radio" id="edad2" name="edad">Adulto<br/>
+        <input type="radio" id="edad3" name="edad">Mayor de 65 años<br/>
+        <input type="submit" value="Confirmar">
+    </form>    
+</body>
+</html>
